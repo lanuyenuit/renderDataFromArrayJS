@@ -1,0 +1,63 @@
+.template {
+    background-color: #50c3af;
+    padding: 48px 0 70px 0;
+    .container {
+        text-align: center;
+        .template-title {
+            display: inline-flex;
+            img {
+                margin-right: 10px;
+            }
+
+            h2 {
+                font-weight: 700;
+                font-size: 15px;
+                color: #ffffff;
+                margin: 0;
+                position: relative;
+                top: 5px;
+            }
+        }
+        .border {
+            width: 250px;
+            border: 1px solid #61c8b6;
+            margin: 15px auto;
+        }
+        .logo {
+            margin-top: 40px;
+            .col {
+                img {
+                }
+                &:first-child {
+                    padding-left: 0;
+                    img {
+                        position: relative;
+                        left: -5px;
+                    }
+                }
+                &:last-child {
+                    padding-right: 0;
+
+
+                    img {
+                        position: relative;
+                        right: -17px;
+                        top: 3px;
+                    }
+                }
+
+            }
+            .promail {
+                position: relative;
+                right: -7px;
+            }
+            .mashabale {
+                position: relative;
+                right: -20px;
+
+            }
+
+        }
+    }
+
+}

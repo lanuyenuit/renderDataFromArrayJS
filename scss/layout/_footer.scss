@@ -1,0 +1,30 @@
+.footer {
+    background-color: #f5f5f5;
+    .container {
+        line-height: 57px;
+        .elena {
+            color: #787b80;
+            font-size: 13px;
+            margin-left: 5px;
+        }
+        .color {
+            color: #b4b6b8;
+        }
+        .icon {
+            display: flex;
+            float: right;
+            a {
+                img {
+                    margin-right: 15px;
+                }
+                &:last-child {
+                    img {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+
+    }
+}
+

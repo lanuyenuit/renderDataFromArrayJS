@@ -1,0 +1,46 @@
+.layered {
+    padding: 60px 0 70px 0 ;
+    background-color: #f5f5f5;
+    .container {
+        .clearfix {
+            .col {
+                padding: 0 8px;
+                img {
+                    margin-bottom: 37px;
+                    width: 100%;
+                }
+                h2 {
+                    margin: 0;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: #40474e;
+                }
+                .border {
+                    margin: 15px auto;
+                    max-width: 100%;
+                }
+                p {
+                    color: #787b80;
+                    margin-bottom: 20px;
+                    margin-top: 5px;
+                    line-height: 1.5rem;
+                }
+                .check {
+                    color: #50c3af;
+                    margin: 0;
+                    cursor: pointer;
+                }
+                &:first-child {
+                    padding-left: 0;
+                    padding-right: 16px;
+                }
+                &:last-child {
+                    padding-right: 0;
+                    padding-left: 16px;
+                }
+            }
+        }
+
+
+    }
+}
